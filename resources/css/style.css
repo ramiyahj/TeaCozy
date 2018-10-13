@@ -68,3 +68,27 @@ header {
   width: 300px;
   height: 200px;
 }
+
+/* End Section */
+
+.content.medium {
+  display: block;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.locations {
+  display: inline-block;
+  margin-top: 15px;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+}
+
+/* Footer */
+
+.copyright {
+  align-content: left;
+  padding-left: 20px;
+}
