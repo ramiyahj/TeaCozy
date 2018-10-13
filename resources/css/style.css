@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 body {
-  margin: 0 auto;
+  margin: 0;
   font-family: "Helvetica";
   font-size: 22px;
   color: seashell;
@@ -20,6 +20,7 @@ nav span {
 /* Header */
 
 header {
+  margin: auto;
   background-color: black;
   display: flex;
   align-items: center;
@@ -40,15 +41,30 @@ header {
 /* Main Content Container */
 
 .content.large {
+  display: inline-block;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-repeat: no-repeat;
   height: 700px;
 }
 
 .content.large .banner {
+  display: block;
   background-color: black;
   width: 1200px;
   align-items: center;
 }
 
 /* Middle Content Container */
+
+.content.small {
+  display: block;
+  width: 1000px;
+  align-items: center;
+}
+
+.image {
+  margin: auto;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+}
