@@ -41,6 +41,11 @@ header {
 
 /* Main Content Container */
 
+.main {
+  width: 90%;
+  margin: auto;
+}
+
 .content.large {
   display: flex;
   text-align: center;
@@ -61,7 +66,7 @@ header {
 /* Middle Content Container */
 
 .content.small {
-  display: block;
+  display: flex;
   width: 1000px;
   align-items: center;
   text-align: center;
@@ -72,6 +77,7 @@ header {
   margin: auto;
   display: inline-block;
   text-align: center;
+  justify-content: center;
   width: 300px;
   height: 200px;
 }
@@ -99,6 +105,7 @@ header {
 
 footer {
   display: flex;
+  justify-content: center;
   text-align: center;
   width: 100%;
   align-items: center;
