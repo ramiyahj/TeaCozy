@@ -9,12 +9,10 @@ html, body {
   opacity 0.9;
 }
 
-a {
-  color: seashell;
-}
-
 nav span {
   display: inline-block;
+  color: seashell;
+  text-decoration: underline;
 }
 
 /* Header */
