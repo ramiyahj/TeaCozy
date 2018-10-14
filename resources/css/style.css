@@ -65,10 +65,14 @@ header {
 
 /* Middle Content Container */
 
-.middle.images{
+.middle.images {
   width: 1000px;
-  margin: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
 .content.small .banner {
   width: 100%;
   align-content: center;
@@ -77,7 +81,7 @@ header {
 }
 
 .image {
-  display:inline-block;
+  display: inline-block;
   width: 300px;
   height: 200px;
 }
@@ -103,20 +107,18 @@ header {
 
 /* Footer */
 
-footer {
+.info {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin: auto;
   width: 100%;
   align-items: center;
-  font-family: "Helvetica";
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  opacity 0.9;
 }
 
 .copyright {
-  justify-content: left;
+  display: inline-flex;
+  align-self: left;
   padding-left: 20px;
 }
