@@ -96,6 +96,7 @@ header {
 
 .content.medium {
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
@@ -103,10 +104,14 @@ header {
   height: 500px;
 }
 
-.locations {
-  display: flex;
-  flex-direction: column;
+#boxes {
+  display: inline-flex;
+  flex-direction: row;
   text-align: center;
+  justify-content: center;
+}
+
+.locations {
   margin-top: 15px;
   margin: 0 20px;
   width: 300px;
