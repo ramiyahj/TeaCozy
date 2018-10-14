@@ -70,7 +70,7 @@ header {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .content.small .banner {
@@ -83,23 +83,32 @@ header {
 .image {
   display: inline-block;
   width: 300px;
+  margin: 15px;
+  text-align: center;
+}
+
+.image img {
+  width: 300px;
   height: 200px;
 }
 
 /* End Section */
 
 .content.medium {
-  display: block;
+  display: flex;
   text-align: center;
+  justify-content: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-repeat: no-repeat;
   height: 500px;
 }
 
 .locations {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-top: 15px;
+  margin: 0 20px;
   width: 300px;
   opacity: 1;
   background-color: black;
@@ -113,12 +122,10 @@ header {
   justify-content: center;
   text-align: center;
   margin: auto;
-  width: 100%;
   align-items: center;
 }
 
-.copyright {
-  display: inline-flex;
-  align-self: left;
+.info .copyright {
+  align-content: left;
   padding-left: 20px;
 }
